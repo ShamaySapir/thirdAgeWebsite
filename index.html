@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Michal Yefet</title>
+</head>
+<body>
+<header id="menu">
+  <nav id="nav">
+    <div class="navLink">
+      <a href="#contact">צור איתי קשר</a>
+    </div>
+    <div class="navLink">
+      <a href="#spa">שאלות ותשובות</a>
+    </div>
+    <div class="navLink">
+      <a href="#qrcoder">QR קוד</a>
+    </div>
+    <div class="navLink">
+      <a href="#like">Like</a>
+    </div>
+    <div class="navLink">
+      <a href="#playlist">הפלייליסט שלי</a>
+    </div>
+    <div class="navLink">
+      <a href="#photos">התמונות שלי</a>
+    </div>
+    <div class="navLink">
+      <a href="#about">הסיפור שלי</a>
+    </div>
+
+  </nav>
+</header>
+
+<main>
+  <div class="main">
+    <section id="about" class="section">
+      <div class="headline"> My Story </div>
+      <p class="about">My name is Roy Shamay. <br>
+        I'm five and a half years old and I live in Be'er-Sheva with my parents Sapir and Ran Shamay. <br>
+        My Hobbies are to run after balls, pull some ropes, <br>
+        eat from the garbage when they don't pay attention 
+        and sleep 20 hours a day! <br>
+        My first meeting with Sapir (Back then in 2015) was very stressful, I was only one and a half months old. <br>
+        I was abandoned on the steps of the building by one of her neighbors.<br>
+        I was really scared and so when she opened the door, I walked straight inside her apartment. <br>
+        The minute she saw me she fell in-love. <br>
+        When Ran came home, imagine his surprise, he was sure that Sapir is messing with him. <br>
+        but the truth is that he really wanted me, too! <br>
+        Fast forward to these days,<br>
+        I'm so happy they have found me, and that I met them, I feel their love everyday. <br>
+      </p>
+    </section>
+      
+      <section id="photos" class="section">
+        <div class="headline"> My photos </div>
+        <div class="container">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 12</div>
+            <img src="images/royWedding.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 12</div>
+            <img src="images/royTrip.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 12</div>
+            <img src="images/royWedding2.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 12</div>
+            <img src="images/roy2.jpeg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 12</div>
+            <img src="images/family2.jpeg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 12</div>
+            <img src="images/royCauch.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">7 / 12</div>
+            <img src="images/littelRoy.jpeg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 12</div>
+            <img src="images/babyRoy.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">9 / 12</div>
+            <img src="images/baby.jpg" style="width:100%; height: 750px;">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">10 / 12</div>
+          <img src="images/run.jpg" style="width:100%; height: 750px;">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">11 / 12</div>
+          <img src="images/family.jpg" style="width:100%; height: 750px;">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">12 / 12</div>
+          <img src="images/rope.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+        
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="images/royWedding.jpg" style="width:100%" onclick="currentSlide(1)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/royTrip.jpg" style="width:100%" onclick="currentSlide(2)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/royWedding2.jpg" style="width:100%" onclick="currentSlide(3)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/roy2.jpeg" style="width:100%" onclick="currentSlide(4)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/family2.jpeg" style="width:100%" onclick="currentSlide(5)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/royCauch.jpg" style="width:100%; height:110px;" onclick="currentSlide(6)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/littelRoy.jpeg" style="width:100%; height: 140px;" onclick="currentSlide(7)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/babyRoy.jpg" style="width:100%" onclick="currentSlide(8)">
+            </div>
+ 
+            <div class="column">
+              <img class="demo cursor" src="images/baby.jpg" style="width:100%; height: 140px;" onclick="currentSlide(9)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/run.jpg" style="width:100%; height: 140px;" onclick="currentSlide(10)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/family.jpg" style="width:100%; height: 140px;" onclick="currentSlide(11)">
+            </div>
+
+            <div class="column">
+              <img class="demo cursor" src="images/rope.jpg" style="width:100%; height: 140px;" onclick="currentSlide(12)">
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
+      <section id="playlist" class="section">
+        <div class="headline"> My playlist </div>
+        <iframe width="660" height="415" src="https://www.youtube.com/embed/YZ8KpZsxySM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+      </section>
+      
+      <section id="like" class="section">
+        <div class="headline"> Do you want to play with me? &#x1F970<br> Give me a like and throw me the ball &#x1F3BE</div>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fsise-web-development-environments.github.io%2Fassignment1-ShamaySapir%2F&width=67&layout=box_count&action=like&size=large&share=false&height=65&appId" width="70" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      </section>
+      
+      <section id="qrcoder" class="section">
+        <div class="headline"> Scan my code</div>
+        <img src="images/qr.png">
+      </section>
+      
+      <section id="spa" class="section">
+        <div class="headline"> Now I'll share some of my knowledge</div>
+          <img src="images/QandA.png">
+      </section>
+      
+      <section id="contact"  class="formContainer">
+        <div class="headline"> Contact me </div>
+
+        <form action="mailto:shamayroi@gmail.com" method="POST" enctype="text/plain">
+          <div>
+            <p>Please fill in this form to contact me</p>
+            <hr>
+            <div class="formContent">
+              <div>
+                <label for="email"><b>Email: &nbsp</b></label>
+                <input class="email" type="text" placeholder="Enter Email" name="email" requir></input> 
+              </div>
+              <div class="content">
+                <label><b>Content: &nbsp</b></label>
+                <textarea id="text_wrapper" type="text" name="content" required> </textarea>
+              </div>
+              <div class="emojiList">
+                <span id="heart" onClick=addEmoji("&#128156")>&#128156</span>
+                <span id="stars" onClick=addEmoji("&#129321")> &#129321</span>
+                <span id="kiss" onClick=addEmoji("&#128536")>&#128536</span>
+                <span id="dog2" onClick=addEmoji("&#128021")> &#128021</span>
+                <span id="bone" onClick=addEmoji("&#127830")> &#127830</span>
+                <span id="paw" onClick=addEmoji("&#128062")> &#128062</span>
+                <span id="tennis" onClick=addEmoji("&#127934")> &#127934</span>
+                <span id="dog" onClick=addEmoji("&#128054")> &#128054</span>
+              </div>
+            </div>
+            <hr>
+            
+            <button type="submit" class="send">Send</button>
+          </div>
+          
+        </form>
+  
+  
+  
+  
+  </div>
+  
+</main>
+
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+</script>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+  </script>
+
+  <script>
+    function addEmoji(emojiNum) {
+      var emoji = document.getElementById("text_wrapper");
+      emoji.value += emojiNum;
+    }
+  </script>
+
+
+</body>
+</html>
