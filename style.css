@@ -61,7 +61,7 @@
 	padding-top: 20px;
 	font-size: 50px;
 	padding-bottom: 40px;
-	color:#D779F8;
+    color: #4CF09E;
 	padding-left: 10em;
 	font-weight: bold;
 	font-size: 60px;
@@ -180,8 +180,6 @@
 }
 
 #qrcoder {
-	background-image: url("images/frame.png");
-	background-repeat: no-repeat;
 	padding-bottom: 20em;
 	margin-left: 30em;
 	width: 50vw;
