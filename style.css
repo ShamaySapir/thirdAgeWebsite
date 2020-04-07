@@ -19,7 +19,7 @@
 #nav a {
 	 font-size: 15px;
 	 font-family: 'Shuneet', serif;
-	 font-size: 16px;
+	 font-size: 20px;
 	}
 
 #nav a:link {
@@ -71,7 +71,7 @@
 .about {
 	padding-right: 1em;
 	padding-left: 1em;
-	font-size: 12px;
+	font-size: 18px;
 	padding-bottom: 1em;
 }
 
