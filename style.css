@@ -61,11 +61,9 @@
 	padding-top: 20px;
 	font-size: 50px;
 	padding-bottom: 40px;
-    color: #4CF09E;
+    color: #ff8d33;
 	padding-left: 10em;
 	font-weight: bold;
-	font-size: 60px;
-
 }
 
 .about {
@@ -166,37 +164,30 @@
 
 #playlist {
 	margin-top: 1em;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 
 }
 
 #like {
-	background-image: url("images/frame2.jpg");
-	background-repeat: no-repeat;
 	padding-top: 5em;
-	width: 80vw;
 	margin-bottom: 3em;
-	margin-left: 10em;
 }
 
 #qrcoder {
-	padding-bottom: 20em;
-	margin-left: 30em;
-	width: 50vw;
+	padding-bottom: 2em;
+
 
 }
 
 .formContainer {
-	width: 50vw;
-	margin-left: 25em;
-	-webkit-box-shadow: -5px 10px 36px 9px rgba(16,154,204,1);
-	-moz-box-shadow: -5px 10px 36px 9px rgba(16,154,204,1);
-	box-shadow: -5px 10px 36px 9px rgba(16,154,204,1);
+	-webkit-box-shadow: -5px 10px 36px 9px rgb(16, 204, 141);
+	-moz-box-shadow: -5px 10px 36px 9px rgb(16, 204, 141);
+	box-shadow: -5px 10px 36px 9px rgb(16, 204, 141);
 }
 
 .content {
 	display: inline-flex;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 hr {
@@ -220,15 +211,17 @@ font-size: 20px;
 }
 
 .email {
-width: 200px;
-height: 30px;
+	width: 200px;
+	height: 30px;
+	margin-left: 10em;
+
 }
 
 #text_wrapper {
 	border: 1px solid #ccc;
 	width: 300px;
 	height: 150px;
-	text-align: start;
+	text-align: right;
   }
 
   #text img {
