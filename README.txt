@@ -1,10 +1,10 @@
-# Michal Yefet Website
+# Roy Shamay Website
 
 This HTML5 and CSS3 website create by Sapir Shamay (nagar) 305649444
 Website Link: https://sise-web-development-environments.github.io/assignment1-ShamaySapir/
 Github user: ShamaySapir
 
-The website is about my mother, Michal, who is living by her own and staying at home in Corona time.
+The website is about my awasome dog, Roy.
 
   - use 1680x1050 resolution to get the best experience from this website
   - use the Outlook application with Firefox browser to see the emoji inside the email in `contact me` 
